@@ -1,0 +1,189 @@
+
+.navbar-default.menu-shrink {
+    background: #008cfd !important;
+}
+
+.navbar-default.menu-shrink li a {
+    color: white !important;   
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: white !important;   
+}
+
+.navbar-default.menu-shrink .navbar-nav>.active>a, .navbar-default.menu-shrink .navbar-nav>.active>a:hover, .navbar-default.menu-shrink .navbar-nav>.active>a:focus, .navbar-default.menu-shrink li a:hover {
+    color: white !important;   
+}
+
+.testimonial_img img {
+    border: none !important;
+    border-radius: 0px !important;
+    float: left;
+    margin-right: 10px;
+    width: 105px !important;
+    clear: both !important;
+    margin-left: 30% !important;
+}
+
+.single_feature_two {
+    padding-top: 100px !important;
+}
+
+.fb-page {
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 10px !important;
+    display: none;
+}
+
+.fb_message {
+    background: #0084FF;
+    border-radius: 14px;
+    position: fixed !important;
+    bottom: 115px !important;
+    right: 30px !important;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: none;
+}
+.fb_show {
+    width: 100px;
+    height: 100px;
+    position: fixed !important;
+    bottom: 10px !important;
+    right: 30px !important;
+    background: url('http://pinmyspot.com/assets/site/img/messenger.png') 100% 100%;
+}
+
+.fb_close {
+    width: 30px;
+    height: 30px;
+    position: fixed !important;
+    bottom: 485px !important;
+    right: 6px !important;
+    background: url(http://pinmyspot.com/assets/site/img/close_modal.png) 100% 100%;
+    display: none;
+    z-index: 899;
+}
+.section-title h2 {
+    text-transform: none;
+}
+
+.about_video {
+    height: 400px !important;
+}
+
+.single_feature_two h2 {
+    color: #2a2b2f;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+}
+
+.hero-text h1 {
+        color: #fff;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 45px;
+    padding-top: 25%;
+    text-transform: none;
+}
+
+.foto_blog {
+    float: left; margin-top: 10px; margin-right: 10px;
+}
+
+a.blog p, a.blog p:hover {
+    color: #2a2b2f;
+}
+
+.dados {
+    color: #2a2b2f;
+    float: left;
+    width: 40%;
+}
+
+.topo_blog {
+        float: left;
+    width: 100%;
+    clear: both;
+}
+
+.blog_texto {
+    color: #2a2b2f;
+    font-size: 16px;
+}
+
+.navbar-brand img {
+    width: 190px !important;
+}
+
+.close, .close:hover {
+        width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url(http://pinmyspot.com/assets/site/img/close_modal.png);
+    top: -15px;
+    right: -15px;
+    opacity: 1;
+}
+
+.testimonial_img h4 {
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 15px;
+    overflow: hidden;
+    text-transform: capitalize;
+    float: left !important;
+    clear: both !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.testimonial_img img.forro {
+    width: 80px !important;
+    margin-left: 35% !important;
+}
+
+.testimonial_img img.hack{
+    width: 100% !important;
+    height: 82px;
+    margin-left: 0% !important;
+}
+
+.backmobile {
+    background-image: url('http://pinmyspot.com/assets/site/img/bg/home-bg.jpg') !important;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 360px) {
+
+.home_bg {
+    height: 670px !important;
+}
+
+}
+
+@media only screen and (max-width:480px) { 
+    .backmobile {
+        background-image: none !important;
+    }
+    .hidemobile {
+        display: none !important;
+    }
+    .menu-top { background-color: transparent; }
+    .navbar-default .navbar-nav > li > a { color: #313131  !important }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form { background: white; }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+        color: #313131  !important;
+    }
+    .navbar-default.menu-shrink .navbar-nav>.active>a, .navbar-default.menu-shrink .navbar-nav>.active>a:hover, .navbar-default.menu-shrink .navbar-nav>.active>a:focus, .navbar-default.menu-shrink li a:hover {
+        color: #313131  !important;   
+    }
+}
